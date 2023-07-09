@@ -15,6 +15,6 @@ export default defineConfig({
     extend: {},
   },
 
-  // The output directory for your css system
-  outdir: 'styled-system',
+  // The output directory for your css system in /node_modules
+  outdir: '@design-system',
 });
