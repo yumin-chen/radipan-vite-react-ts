@@ -1,0 +1,35 @@
+{
+  "name": "radipan-vite-react-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "cssgen": "CSSGEN=pregen npx tsx --tsconfig node_modules/radipan/extractor.tsconfig.json node_modules/radipan/css-extractor.ts & npm run cssgen-build",
+    "cssgen-watch": "CSSGEN=pregen npx tsx watch --tsconfig node_modules/radipan/extractor.tsconfig.json node_modules/radipan/css-extractor.ts & npm run cssgen-build --watch",
+    "cssgen-build": "panda cssgen",
+    "design": "panda studio",
+    "prepare": "panda codegen & npm run cssgen",
+    "dev": "panda codegen & npm run cssgen-watch & vite",
+    "build": "panda cssgen-build & tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "@vitejs/plugin-react": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "radipan": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
