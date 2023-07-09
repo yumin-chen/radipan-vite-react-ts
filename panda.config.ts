@@ -1,4 +1,4 @@
-import { defineConfig } from "radipan/config"
+import { defineConfig } from 'radipan/config';
 
 export default defineConfig({
   // Path to app entry point
@@ -10,14 +10,11 @@ export default defineConfig({
   // Files to exclude
   exclude: [],
 
-
   // Useful for theme customization
   theme: {
-    extend: {}
+    extend: {},
   },
 
   // The output directory for your css system
-  outdir: "styled-system",
-
-
-})
+  outdir: 'styled-system',
+});
