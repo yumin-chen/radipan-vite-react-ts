@@ -5,13 +5,11 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
-    "cssgen": "CSSGEN=pregen npx tsx --tsconfig node_modules/radipan/extractor.tsconfig.json node_modules/radipan/dist/css-extractor/css-extractor.js & npm run cssgen-build",
-    "cssgen-watch": "CSSGEN=pregen npx tsx watch --tsconfig node_modules/radipan/extractor.tsconfig.json node_modules/radipan/dist/css-extractor/css-extractor.js & npm run cssgen-build --watch",
-    "cssgen-build": "panda cssgen",
-    "design": "panda studio",
-    "prepare": "panda codegen & npm run cssgen",
-    "dev": "panda codegen & npm run cssgen-watch & vite",
-    "build": "panda cssgen-build & tsc && vite build",
+    "cssgen": "npx radipan cssgen",
+    "design": "npx radipan design",
+    "prepare": "npx radipan prepare",
+    "dev": "npx radipan prepare --watch & vite",
+    "build": "npx radipan cssgen & tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
