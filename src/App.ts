@@ -1,4 +1,4 @@
-import { div, main } from 'radipan';
+import { div, main } from 'radipan/tags';
 
 function App() {
   return main.create(
