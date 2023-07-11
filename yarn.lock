@@ -4362,9 +4362,9 @@ queue-microtask@^1.2.2:
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
 radipan@latest:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/radipan/-/radipan-0.0.8.tgz#02f7a7ff7c928905519f7fbc07b46bb4e79f28b3"
-  integrity sha512-D6JJp7DbL5pkO6ZWDVdk7CP3W1FvAN2XNdK3EOYiLGkZnEFxpNrJjWfs9JNcH6QkE9v6o6MbM+kRB9ZIxqhrbg==
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/radipan/-/radipan-0.0.9.tgz#38cd1ec63185c1b6c04705d239097d50dabbc5d3"
+  integrity sha512-Gov7TJPWQnj65lchdvJ0YlgIdEZ4GJb+MVe+pekFpAeFhmq58oqjHDtxqlFQVEmsCJlyHHcrlpLggws/wdSMoA==
   dependencies:
     phy-react latest
     typescript latest
