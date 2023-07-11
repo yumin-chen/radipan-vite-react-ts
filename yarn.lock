@@ -4284,7 +4284,7 @@ postcss@8.4.24:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@^8.1.10, postcss@^8.4.23, postcss@^8.4.24:
+postcss@^8.1.10, postcss@^8.4.23, postcss@^8.4.24, postcss@^8.4.25:
   version "8.4.25"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.25.tgz#4a133f5e379eda7f61e906c3b1aaa9b81292726f"
   integrity sha512-7taJ/8t2av0Z+sQEvNzCkpDynl0tX3uJMCODi6nT3PfASC7dYCWV9aQ+uiCf+KBD4SEFcu+GvJdGdwzQ6OSjCw==
@@ -4362,9 +4362,9 @@ queue-microtask@^1.2.2:
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
 radipan@latest:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/radipan/-/radipan-0.0.6.tgz#d60bf9898944ae334df702184f8afc1d6e01364c"
-  integrity sha512-L17Ualq27xuQvEx7lcNZvOxn31gPVXejeK+FjZCnfVQNefhc2n+HM6uO8SyxillVajvoSfWbQJfUFiU2+7nVJg==
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/radipan/-/radipan-0.0.7.tgz#1c4a6c004c73b84e5c903100f143ab5d6c058363"
+  integrity sha512-VC2vlomtYcJbYyoaS7ea1tcF1lgSiflbu66ZejU+V6SP9SraQ+yHw4gH3kqg//FwxH7XZYthcLGqzEbCtYlMlg==
   dependencies:
     phy-react latest
     typescript latest
@@ -5086,13 +5086,24 @@ vite@4.3.9:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vite@^4.3.9, vite@latest:
+vite@^4.3.9:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.2.tgz#acd47de771c498aec80e4900f30133d9529b278a"
   integrity sha512-zUcsJN+UvdSyHhYa277UHhiJ3iq4hUBwHavOpsNUGsTgjBeoBlK8eDt+iT09pBq0h9/knhG/SPrZiM7cGmg7NA==
   dependencies:
     esbuild "^0.18.10"
     postcss "^8.4.24"
+    rollup "^3.25.2"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+vite@latest:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.3.tgz#dfaf86f4cba3058bf2724e2e2c88254fb0f21a5a"
+  integrity sha512-IMnXQXXWgLi5brBQx/4WzDxdzW0X3pjO4nqFJAuNvwKtxzAmPzFE1wszW3VDpAGQJm3RZkm/brzRdyGsnwgJIA==
+  dependencies:
+    esbuild "^0.18.10"
+    postcss "^8.4.25"
     rollup "^3.25.2"
   optionalDependencies:
     fsevents "~2.3.2"
