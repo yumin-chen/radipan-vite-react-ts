@@ -7,9 +7,6 @@ export default defineConfig({
   // Whether to use css reset
   preflight: true,
 
-  // Files to exclude
-  exclude: [],
-
   // Useful for theme customization
   theme: {
     extend: {},
