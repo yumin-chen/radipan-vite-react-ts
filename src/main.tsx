@@ -1,9 +1,10 @@
-import { StrictMode } from 'react';
-import { createElement as h } from 'radipan';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.ts';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  h(StrictMode, {}, h(App))
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
