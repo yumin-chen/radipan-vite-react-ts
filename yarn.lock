@@ -4177,13 +4177,6 @@ perfect-debounce@^1.0.0:
   resolved "https://registry.yarnpkg.com/perfect-debounce/-/perfect-debounce-1.0.0.tgz#9c2e8bc30b169cc984a58b7d5b28049839591d2a"
   integrity sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==
 
-phy-react@latest:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/phy-react/-/phy-react-0.1.1.tgz#d37e84ea5bac85ee29f556390d8d40b3e248a5dd"
-  integrity sha512-ecLHvROgqpzCDNtERoRIu3BY1qCQ1JpfWsd9FKKYOdvHDgocqeiZyd8Ye0h7rMtMD9W1oY4TDRwXbJtMWaFlkw==
-  dependencies:
-    react latest
-
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
@@ -4362,11 +4355,10 @@ queue-microtask@^1.2.2:
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
 radipan@latest:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/radipan/-/radipan-0.0.9.tgz#38cd1ec63185c1b6c04705d239097d50dabbc5d3"
-  integrity sha512-Gov7TJPWQnj65lchdvJ0YlgIdEZ4GJb+MVe+pekFpAeFhmq58oqjHDtxqlFQVEmsCJlyHHcrlpLggws/wdSMoA==
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/radipan/-/radipan-0.0.10.tgz#d418bd209222b03595881fccb788889e04872c98"
+  integrity sha512-ofE5MAof67CuhC4Y2iSaeRz5N9Wqx1yaokELsQ4ZYu0sXaLBr7TsDToxStXeVvoNLSzjc55YYRVVHfWfilzuOA==
   dependencies:
-    phy-react latest
     typescript latest
 
 react-dom@18.2.0, react-dom@latest:
