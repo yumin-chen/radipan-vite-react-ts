@@ -2,7 +2,7 @@ import { defineConfig } from 'radipan/config';
 
 export default defineConfig({
   // Path to app entry point
-  appEntry: 'src/App.ts',
+  appEntry: 'src/App.tsx',
 
   // Whether to use css reset
   preflight: true,

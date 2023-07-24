@@ -8,7 +8,7 @@ function App() {
         background: { base: 'white', _osDark: 'black' },
       }}
     >
-      <div css={{ fontSize: '2xl', fontWeight: 'bold' }}>'Hello Radip🐼n!'</div>
+      <div css={{ fontSize: '2xl', fontWeight: 'bold' }}>Hello Radip🐼n!</div>
     </main>
   );
 }
